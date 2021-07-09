@@ -59,6 +59,12 @@ img,svg{
     font-size: 14px;
 
 }
+.nav-link:focus{
+    color: #d9230f !important;
+  }
+  .nav-link:hover{
+    color: #d9230f !important;
+  }
 
 .header-di .link-navigate{
     display: flex;
