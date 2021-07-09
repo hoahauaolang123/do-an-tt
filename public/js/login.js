@@ -87,7 +87,7 @@ function setFeedback(el, feedback, content) {
 //         remember.checked = true;
 //     }
 // })();
-fetch('http://localhost:3000/key')
+fetch('/key')
 .then(response => response.json())
 .then((data) => {
     form.addEventListener("submit", function (e) {
@@ -107,7 +107,7 @@ fetch('http://localhost:3000/key')
                 }
     
                 window.location.href =
-                    "http://localhost:3000/quanly.html";
+                    "/quanly.html";
 
 
             } else {
