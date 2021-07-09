@@ -1,7 +1,7 @@
 import xhr, {createPost } from "./common.js";
 
 
-    fetch('http://localhost:3000/cart')
+    fetch('/cart')
         .then(response => response.json())
         .then((data) => {
          let post =document.getElementById("cart");
@@ -12,7 +12,7 @@ import xhr, {createPost } from "./common.js";
         })
         .catch(error => console.log(error));
 document.getElementById("btn-province-ha-noi").onclick = function () {
-    fetch('http://localhost:3000/cart?address_like=nội')
+    fetch('/cart?address_like=nội')
 .then(response => response.json())
 .then((res) => {
     let post =document.getElementById("cart");
@@ -26,7 +26,7 @@ document.getElementById("btn-province-ha-noi").onclick = function () {
 .catch(error => console.log(error));
 };
 document.getElementById("btn-province-ho-chi-minh").onclick = function () {
-    fetch('http://localhost:3000/cart?address_like=minh')
+    fetch('/cart?address_like=minh')
     .then(response => response.json())
     .then((res) => {
         let post =document.getElementById("cart");
@@ -40,7 +40,7 @@ document.getElementById("btn-province-ho-chi-minh").onclick = function () {
 };
 document.getElementById("xoa-loc").onclick = function () {
    
-    fetch('http://localhost:3000/cart')
+    fetch('/cart')
         .then(response => response.json())
         .then((data) => {
          let post =document.getElementById("cart");
@@ -51,7 +51,7 @@ document.getElementById("xoa-loc").onclick = function () {
         })
 };
 document.getElementById("btn-seat-5").onclick = function () {
-    fetch('http://localhost:3000/cart?seat_like=5')
+    fetch('http//cart?seat_like=5')
 .then(response => response.json())
 .then((res) => {
     let post =document.getElementById("cart");
@@ -65,7 +65,7 @@ document.getElementById("btn-seat-5").onclick = function () {
 .catch(error => console.log(error));
 };
 document.getElementById("btn-seat-7").onclick = function () {
-    fetch('http://localhost:3000/cart?seat_like=7')
+    fetch('/cart?seat_like=7')
 .then(response => response.json())
 .then((res) => {
     let post =document.getElementById("cart");
