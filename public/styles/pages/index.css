@@ -48,7 +48,7 @@ img,svg{
 }
 
 .nav-item{
-    margin-left:20px
+    margin-left:30px
 }
 
 .header-di{
@@ -317,4 +317,8 @@ a:hover {
 }
 .search_header{
     padding: 0.375rem 0.375rem 0px 0px !important ;
+}
+.color-footer{
+    color: #e3e3e3 !important;
+    background: #d9230f !important;
 }
