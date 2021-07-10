@@ -33,101 +33,6 @@
     {
       "name": "nguyễn trung nguyên",
       "phone": "0988787328",
-      "id": 13
-    },
-    {
-      "name": "123465",
-      "phone": "0988787328",
-      "id": 14
-    },
-    {
-      "name": "nguyễn trung nguyên",
-      "phone": "0988787328",
-      "id": 15
-    },
-    {
-      "name": "nguyễn trung nguyên",
-      "phone": "0988787328",
-      "id": 16
-    },
-    {
-      "name": "nguyễn trung nguyên",
-      "phone": "0988787328",
-      "id": 17
-    },
-    {
-      "name": "nguyễn trung nguyên",
-      "phone": "0988787328",
-      "id": 18
-    },
-    {
-      "name": "nguyễn trung nguyên",
-      "phone": "0988787328",
-      "id": 19
-    },
-    {
-      "name": "nguyễn trung nguyên",
-      "phone": "0988787328",
-      "id": 20
-    },
-    {
-      "name": "nguyễn trung nguyên",
-      "phone": "0988787328",
-      "id": 21
-    },
-    {
-      "name": "nguyễn trung nguyên",
-      "phone": "0988787328",
-      "id": 22
-    },
-    {
-      "name": "nguyễn trung nguyên",
-      "phone": "0988787328",
-      "id": 23
-    },
-    {
-      "name": "nguyễn trung nguyên",
-      "phone": "0988787328",
-      "id": 24
-    },
-    {
-      "name": "nguyễn trung nguyên",
-      "phone": "0988787328",
-      "id": 25
-    },
-    {
-      "name": "nguyễn trung nguyên",
-      "phone": "0988787328",
-      "id": 26
-    },
-    {
-      "name": "nguyễn trung nguyên",
-      "phone": "0988787328",
-      "id": 27
-    },
-    {
-      "name": "nguyễn trung nguyên",
-      "phone": "0988787328",
-      "id": 28
-    },
-    {
-      "name": "nguyễn trung nguyên",
-      "phone": "0988787328",
-      "id": 29
-    },
-    {
-      "name": "nguyễn trung nguyên",
-      "phone": "0988787328",
-      "id": 30
-    },
-    {
-      "name": "nguyễn trung nguyên",
-      "phone": "0988787328",
-      "id": 31
-    },
-    {
-      "name": "nguyễn trung nguyên",
-      "phone": "0988787328",
       "id": 32
     }
   ],
@@ -262,25 +167,6 @@
         "https://storage.googleapis.com/f1-cms/2021/05/82289213-20210514_093433.jpg",
         "https://storage.googleapis.com/f1-cms/2021/05/58df74e9-20210514_093428.jpg"
       ]
-    },
-    {
-      "id": 7,
-      "img": "https://storage.googleapis.com/f1-cms/2021/05/c85936df-20210513_065417-267x200.jpg",
-      "title": "Ford EcoSport Titanium 1.5AT 2015",
-      "address": "Hồ chí minh",
-      "parameter": " 2015 | 67.608km | Trắng | Số tự động ",
-      "price": "439",
-      "prepay": "Trả trước 189 triệu",
-      "a": [
-        "https://storage.googleapis.com/f1-cms/2021/05/e9c7edea-20210514_093423.jpg",
-        "https://storage.googleapis.com/f1-cms/2021/05/ecddbde0-20210514_093354.jpg",
-        "https://storage.googleapis.com/f1-cms/2021/05/3090ecca-20210514_093410.jpg",
-        "https://storage.googleapis.com/f1-cms/2021/05/7153e51b-20210514_093442.jpg",
-        "https://storage.googleapis.com/f1-cms/2021/05/c0208273-20210514_093438.jpg",
-        "https://storage.googleapis.com/f1-cms/2021/05/82289213-20210514_093433.jpg",
-        "https://storage.googleapis.com/f1-cms/2021/05/58df74e9-20210514_093428.jpg"
-      ],
-      "seat": "5"
     }
   ],
   "key": [
