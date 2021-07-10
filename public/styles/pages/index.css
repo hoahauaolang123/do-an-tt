@@ -192,7 +192,7 @@ img,svg{
     justify-content: space-between;
 }
 #search-wrap{
-    background-image: url(https://storage.googleapis.com/f1-cms/2019/12/91d542cb-20191230_062951.jpg);
+    background-image: url(/assets/images/AnyCar-LongBien.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
