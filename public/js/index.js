@@ -35,23 +35,29 @@ function saveNewUser(form) {
     flag = textInputValidation(form.elements.name, flag);
     flag = textInputValidation(form.elements.phone, flag);
     if (flag) {
-      let name = $(form.elements.name).val().trim(),
+      $("#classesModalGet").css("opacity",1);
+      $("#classesModalGet").css("display","block");
+      setTimeout(function(){
+        let name = $(form.elements.name).val().trim(),
       
         phone = $(form.elements.phone).val().trim();
-      $.ajax({
-        url: "/user",
-        type: "POST",
-        dataType: "json",
-        contentType: "application/json",
-        data: JSON.stringify({name,phone}),
-        success: function (result) {
-          $("table tbody").append(renderUserContent(result));
-          form.reset();
-          $(form).find("input").removeClass("is-valid");
-          $("#classesModal").modal("hide");
-          reorderUsersList();
-        },
-      });
+        $.ajax({
+          url: "/user",
+          type: "POST",
+          dataType: "json",
+          contentType: "application/json",
+          data: JSON.stringify({name,phone}),
+          success: function (result) {
+            $("table tbody").append(renderUserContent(result));
+            form.reset();
+            $(form).find("input").removeClass("is-valid");
+            $("#classesModal").modal("hide");
+            reorderUsersList();
+            $("#classesModalGet").css("opacity",0);
+            $("#classesModalGet").css("display","none");
+          },
+        });
+      }, 1000)
     }
   }
   function textInputValidation(fieldInput, flag) {
